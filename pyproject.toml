@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-hypervisor"
+version = "0.1.0"
+description = "Zero-Trust System Call Interceptor & Userspace Virtualization Shield for OS-Level Coding Agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ahmed Hassan", email = "ahmed@example.com" }
+]
+keywords = [
+    "ai-security",
+    "hypervisor",
+    "zero-trust",
+    "sandbox",
+    "computer-use",
+    "claude-opus-5-5",
+    "gpt-6-astra",
+    "ai-agents"
+]
+dependencies = []
+
+[project.scripts]
+agent-hypervisor = "agent_hypervisor.cli:main"
